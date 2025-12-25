@@ -17,7 +17,7 @@ hugoblox:
     organization: KFUpm
   theme:
     mode: light
-    pack: default
+    pack: minimal
     colors:
       primary: ""
       secondary: ""

@@ -10,7 +10,7 @@ sections:
       title: |
         Vision and Language <span style="color: #BD641C;">Lab</span>
       image:
-        filename: welcome.png
+        filename: vll_logo.png
       text: |
         <br>
         
