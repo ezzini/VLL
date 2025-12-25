@@ -1,0 +1,26 @@
+.theme-toggle {
+  .js-theme-toggle {
+    cursor: pointer;
+  }
+  
+  .theme-icon-light,
+  .theme-icon-dark {
+    transition: opacity 0.3s ease;
+  }
+}
+
+[data-theme="dark"] .theme-icon-dark {
+  display: none !important;
+}
+
+[data-theme="dark"] .theme-icon-light {
+  display: inline-block !important;
+}
+
+[data-theme="light"] .theme-icon-light {
+  display: none !important;
+}
+
+[data-theme="light"] .theme-icon-dark {
+  display: inline-block !important;
+}

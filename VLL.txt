@@ -1,0 +1,38 @@
+Vision and Language Lab
+
+- Team Members:
+    - PIs
+        - Dr. Hamza Luqman
+        - Dr. Saad Ezzini
+    - Postdocs
+        - Dr. Pavan Kumar
+        - Dr. Abderraouf Maoudj 
+        - Dr. Muhammad Ghani
+    - Graduate Researchers
+        - Fatimah Alali
+        - Ahmed Abdelaal
+        - Aisha Alansari
+        - Doaa Dalaq
+        - Ahmed Abul Hasanaath
+        - Ogtay Hasanov
+        - Amneh Al Abdi
+        - Danah Aldossary
+        - Hind Alatawi
+        - Nour Zeghib
+        - Hania Ghouse
+        - Reem Alzahrani
+    - Collaborators
+        - Dr. XX
+        - Dr. YY
+
+- Publications: we will use the my_publications.bib file to update the publications list
+
+- Projects: The projects list it should have two sections: Ongoing Projects and Completed Projects
+
+- News: Recent news and updates related to the group
+
+- Research themes: The research themes in the home page should include:
+    - Multi-modal NLP
+    - Arabic NLP and Arabic Dialects
+    - Computer Vision and Vision Language Modeling
+    - NLP for Robotics
