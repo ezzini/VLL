@@ -8,19 +8,16 @@ sections:
   - block: hero
     content:
       title: |
-        Vision and <span style="color: #BD641C;">Language</span> Lab
+        Cogni<span style="color: #BD641C;">SAL</span>
+        Research Group
       image:
         filename: welcome.png
       text: |
         <br>
         
-        The **Vision and Language Lab (VLL)** focuses on the intersection of Computer Vision and Natural Language Processing.
+        The **Cognitive Software, Automation and Language Research Group** focuses on the intersection of artificial intelligence, software engineering, and natural language processing. 
         
-        Our research themes include:
-        *   Multi-modal NLP
-        *   Arabic NLP and Arabic Dialects
-        *   Computer Vision and Vision Language Modeling
-        *   NLP for Robotics
+        Our mission is to engineer intelligent systems that can understand, automate, and interact with complex information in a human-like manner.
   
   - block: collection
     content:
