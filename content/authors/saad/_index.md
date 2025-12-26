@@ -37,8 +37,8 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/EzziniSaad
-- icon: google-scholar
-  icon_pack: ai
+- icon: graduation-cap
+  icon_pack: fas
   link: https://scholar.google.co.uk/citations?user=48ebm6wAAAAJ
 - icon: github
   icon_pack: fab

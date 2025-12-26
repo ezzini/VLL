@@ -7,18 +7,24 @@
 </footer>
 
 <script>
-    // Force light mode if configured, clearing local storage preference
     (function () {
-        { { if eq site.Params.hugoblox.theme.mode "light" } }
-        if (localStorage.getItem('wcTheme') === 'dark') {
-            localStorage.setItem('wcTheme', 'light');
-            document.body.classList.remove('dark');
-            location.reload(); // Reload to apply cleanly if needed, or just let CSS take over
-        }
-        // Safety check for body class
-        if (document.body.classList.contains('dark')) {
-            document.body.classList.remove('dark');
-        }
-        { { end } }
+        // Aggressively force light mode
+        const enforceLightMode = () => {
+            if (document.body.classList.contains('dark')) {
+                document.body.classList.remove('dark');
+                document.body.classList.add('light');
+                localStorage.setItem('wcTheme', 'light');
+            }
+        };
+
+        // Run immediately
+        enforceLightMode();
+
+        // Watch for any attempts to change it back to dark
+        const observer = new MutationObserver(() => {
+            enforceLightMode();
+        });
+
+        observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
     })();
 </script>
