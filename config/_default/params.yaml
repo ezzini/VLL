@@ -19,9 +19,15 @@ hugoblox:
     mode: light
     pack: minimal
     colors:
-      primary: ""
+      primary: "#BD641C"
       secondary: ""
       neutral: gray
+    colors_light:
+      primary: ""
+      secondary: ""
+      neutral: ""
+    colors_dark:
+      primary: ""
   typography:
     font: sans
     size: md

@@ -6,7 +6,6 @@
       "body",
       "br",
       "button",
-      "code",
       "div",
       "em",
       "footer",
@@ -69,9 +68,7 @@
       "close",
       "col-12",
       "col-auto",
-      "col-lg-10",
       "col-lg-12",
-      "col-lg-2",
       "col-lg-4",
       "col-lg-8",
       "col-md-1",
@@ -199,7 +196,6 @@
       "pt-3",
       "pt-5",
       "pub",
-      "pub-abstract",
       "pub-filters",
       "pub-row-heading",
       "pubtype-1",
@@ -266,7 +262,6 @@
       "section-hero",
       "section-markdown",
       "section-people",
-      "talk_list",
       "top"
     ]
   }
