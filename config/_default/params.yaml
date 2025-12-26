@@ -21,7 +21,7 @@ hugoblox:
     colors:
       primary: ""
       secondary: ""
-      neutral: ""
+      neutral: gray
   typography:
     font: sans
     size: md
@@ -35,7 +35,7 @@ hugoblox:
     sticky: true
     align: center
     search: true
-    theme_toggle: false
+    theme_toggle: true
   footer:
     style: minimal
     language_switcher: true

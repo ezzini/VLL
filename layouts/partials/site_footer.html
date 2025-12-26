@@ -5,3 +5,20 @@
         </p>
     </div>
 </footer>
+
+<script>
+    // Force light mode if configured, clearing local storage preference
+    (function () {
+        { { if eq site.Params.hugoblox.theme.mode "light" } }
+        if (localStorage.getItem('wcTheme') === 'dark') {
+            localStorage.setItem('wcTheme', 'light');
+            document.body.classList.remove('dark');
+            location.reload(); // Reload to apply cleanly if needed, or just let CSS take over
+        }
+        // Safety check for body class
+        if (document.body.classList.contains('dark')) {
+            document.body.classList.remove('dark');
+        }
+        { { end } }
+    })();
+</script>
